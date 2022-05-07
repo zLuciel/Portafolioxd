@@ -1,0 +1,34 @@
+.servicios  {
+ grid-area: servicios;
+}
+.titulo-servicios{
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 4px solid greenyellow;
+}
+.container-card{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+  }
+  /** aunque podria ponerlo mas pequeño*/
+  @media (max-width: 500px){
+    .container-card{
+      width: 100%;
+      margin: none;
+    }
+    .container-card{
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: auto;
+      width: 100%;
+    }
+  }

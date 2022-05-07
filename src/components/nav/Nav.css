@@ -1,0 +1,21 @@
+.nav{  
+  grid-area: nav;
+  justify-self: end;
+  align-self: center;
+}
+.nav > ul{
+    display: flex;
+}
+.nav > ul > li{
+    list-style: none;
+    margin: 0 50px;
+}
+.nav > ul > li:hover{
+    cursor: pointer;
+    color: greenyellow;
+}
+@media (max-width: 685px){
+    .nav{
+        display: none;
+    }
+}

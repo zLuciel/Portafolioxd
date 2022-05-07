@@ -1,0 +1,94 @@
+.skills {
+  grid-area: skills;
+  width: 100%;
+}
+.skills h1 {
+  padding-top: 27px;
+  margin: auto;
+  width: 25vw;
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 1.5rem;
+  text-align: start;
+}
+.icono-skills {
+  padding-top: 15px;
+  display: flex;
+  margin: auto;
+  width: 20vw;
+  min-width: 514px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.icono-skills > .blur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(0, 0, 0, 0.27);
+}
+.blur div {
+  width: 50px;
+}
+.skills-dynamic{
+    animation: skills 1.1s ease 0s 1 normal forwards;
+}
+@keyframes skills {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 982px) {
+  .icono-skills {
+    width: 100%;
+    margin: 0;
+  }
+  .icono-skills > .blur {
+    margin: 10px;
+  }
+  .skills h1 {
+    margin: 0 15px;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 1.5rem;
+    text-align: start;
+  }
+}
+
+@media (max-width: 662px) {
+  .icono-skills > .blur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 130px;
+    height: 130px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(0, 0, 0, 0.27);
+  }
+  .icono-skills {
+    grid-area: skills;
+    margin: auto;
+    width: 100%;
+    min-width: 0;
+  }
+  .icono-skills {
+    margin: auto;
+  }
+}

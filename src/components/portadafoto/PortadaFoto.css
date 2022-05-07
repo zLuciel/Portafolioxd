@@ -1,0 +1,31 @@
+.img-container{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.377),
+        rgba(17, 17, 17, 0.582)
+      );
+  }
+  
+  .img-container img{
+    width: auto ;
+    height:100%;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+    animation: emma 1s ease 0s 1 normal forwards;
+  }
+
+  @keyframes emma {
+    0% {
+      opacity: 0;
+      transform: translateX(250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @media (max-width: 1321px) {
+    .img-container img{
+      display: none;
+    }
+  }

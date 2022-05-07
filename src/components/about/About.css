@@ -1,0 +1,11 @@
+.about{
+    grid-area: about;
+}
+.titulo-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-about > h1{
+ border-bottom: 4px solid greenyellow;
+}
