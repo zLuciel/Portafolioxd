@@ -8,9 +8,9 @@
 }
 .loader span {
     z-index: 500;
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
+    font-weight: 800;
     animation: blur 3s linear infinite;
     line-height: 20px;
     transition: all 0.5s;

@@ -16,18 +16,18 @@
 }
 .titulo-portada p{
   text-align: start;
-  font-size: 1.3rem;
+  font-size: 2rem;/**1.3rem*/
   font-weight: bold;
 }
 .titulo-portada h2{
   text-align: start;
-  font-weight: 800;
-  font-size: 2.5rem;
+  font-weight: 800;/**800*/
+  font-size: 3.8rem;/**2.5*/
   color: greenyellow
 }
 .titulo-portada h1{
-  font-size: 1.2rem;
-  margin-top: 16px;
+  font-size:1.8rem;/**1.2rem*/
+  margin-top: 10px;/**15px*/
   display: flex;
 }
 .txt-dynamic {

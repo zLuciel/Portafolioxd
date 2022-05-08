@@ -1,18 +1,18 @@
 /* From uiverse.io by @alexmaracinaru */
 .button-about {
-    margin: 10px 0px;
+    margin: 18px 0px;
     color: black;
     cursor: pointer;
     font-weight: 700;
     font-family: Helvetica,"sans-serif";
     transition: all .2s;
-    padding: 5px 20px;
+    padding: 12px 20px;/**10px 20px*/
     border-radius: 100px;
     background: #cfef00;
     border: 1px solid transparent;
     display: flex;
     align-items: center;
-    font-size: .7rem;
+    font-size: 1rem;/**.7rem*/
    }
    
    .button-about:hover {

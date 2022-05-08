@@ -2,29 +2,30 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    /*gap: 0px;*/
+   /* gap: 10px;*/
 }
 .details2{
     display: flex;
     justify-self: center;
     align-items: center;
     margin: auto;
-    width: 70%;
+    width: 70%;/**70%**/
     min-width: 387px;
 }
 .details2-div > h1 {
-  font-size: 1.1rem;
+  font-size: 1.7rem;/**1.1rem*/
   color: rgba(255, 255, 255, 0.575);
 }
 .details2-div > h2{
-    font-size: 1.2rem;
+    font-size: 2rem;/**1.2rem*/
+    line-height: 1.8;/**nuevo*/
   }
 .details2-div > p, .details2-div >h1,.details2 > div {
     text-align: justify;
     line-height: 2.5;
 }
 .details2-div > p{
-    font-size: .7rem;
+    font-size: 1rem;/**.7rem*/
     line-height: 2.7;
     word-spacing: 2px;
     color: rgba(255, 255, 255, 0.575);
@@ -33,53 +34,23 @@
     display: flex;
 }
 .details2-div > .list-details{
- font-size: .7rem;
+ font-size: 1rem;/**.7rem*/
 }
 .list-details > button{
     margin-top: 20px;
 }
-/*1182/1023*/
-/*
-@media (max-width: 1182px){
-    .details-container{
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr auto;
-    }
-    .details2{
-        margin: auto;
-        display: flex;
-        justify-self: center;
-        align-items: center;
-        width: 70%;
-        padding-right: 40px;
-        padding-left: 40px;
-    }
-}
-@media (max-width: 500px){
-    .details2{
-        display: flex;
-        justify-self: center;
-        align-items: center;
-        width: 100%;
-        padding: 20px;
-    }
-    .details-container{
-        position: relative;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto;
-    }
-    .details2-div > h1 {
-      font-size: 1.2rem;
+@media (max-width: 1385px){
+    .details2-div > h1{
+        font-size: 1.5rem;
     }
     .details2-div > h2{
-        font-size: 1rem;
+        font-size: 1.8rem;
+        line-height: none;
       }
-    .details2-div > p{
-        font-size: .9rem;
-    }
-}*/
+      .details2-div > p,.details2-div > .list-details{
+          font-size: .8rem;
+      }
+}
 @media (max-width: 900px){
     .details-container{
         display: grid;
@@ -106,4 +77,14 @@
         width: 90%;
         min-width: 0px;
     }
+    .details2-div > h1{
+        font-size: 1.5rem;
+    }
+    .details2-div > h2{
+        font-size: 1.6rem;
+        line-height: none;
+      }
+      .details2-div > p,.details2-div > .list-details{
+          font-size: .8rem;
+      }
 }
